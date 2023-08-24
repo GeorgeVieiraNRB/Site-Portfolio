@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="Grupo.png">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="George Vieira">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>George Vieira</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="seu-logo.svg" alt="Meu Logo" id="logo-image">
+        </div>
+        <h1 id="nome">George Vieira</h1>
+        <ul class="nav-links">
+            <li><a class="link" href="#div1">Sobre Mim</a></li>
+            <li><a class="link" href="#div2">Projetos</a></li>
+            <li><a class="link" href="#div3">Marca</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <!-- Conteúdo das divs -->K
+        <div id="div1" class="content-div">
+            <h1>Sobre Mim</h1>
+            <div class="flex-container">
+                <div>
+                    <img id="face-image" src="foto-rosto.jpg" alt="" class="background-child">
+                </div>
+                <div class="info-container">
+                    <div id="basic-info" class="background-child">
+                        <p>NOME: George Vieira</p>
+                        <p id="idade">IDADE:</p>
+                        <p>CIDADE: Recife-PE</p>
+                        <p>OCUPAÇÃO: Estudante</p>
+                        <p>CURSO: Engenharia da Computação</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-container">
+                <dir id="contato" class="background-child">
+                    <h1>Contato</h1>
+                    <p>Email : georgevnrb@gmail.com</p>
+                    <p>Github : https://github.com/GeorgeVieiraNRB</p>
+                    <p>Linkedin : https://www.linkedin.com/in/george-vieira-nrb/</p>
+                </dir>
+            </div>
+
+            <!-- <div class="skills-container">
+                <div id="skills-info" class="background-child">
+                    <br>
+                    <p>HARDSKILLS</p>
+                    <br>
+                    <p>SOFTSKILLS</p>
+                    <br>
+                    <p>HOBBIES</p>
+                </div>
+            </div> -->
+        </div>
+        <div id="div2" class="content-div">
+            <!-- Conteúdo da Div 2 -->
+            <h1>Projetos</h1>
+            <div id="carrosel" class="carrossel">
+                <h2 id="image-title">Plastic Defense</h2>
+                <div class="conteudo">
+                    <input type="radio" name="slide" id="slide1" checked>
+                    <input type="radio" name="slide" id="slide2">
+                    <input type="radio" name="slide" id="slide3">
+                    <input type="radio" name="slide" id="slide4">
+                    <!-- <input type="radio" name="slide" id="slide5">  -->
+                    <div class="slides">
+                        <div class="slide s1" id="s1">
+                            <a href="https://github.com/GeorgeVieiraNRB/plastic-defense" id="link-imagem">
+                                <img id="imagem-carrossel"src="plastic-defense.png" alt="Projeto">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <label for="slide1" class="bar leftiest-bar"></label>
+                    <label for="slide2" class="bar"></label>
+                    <label for="slide3" class="bar"></label>
+                    <label for="slide4" class="bar"></label>
+                    <!--<label for="slide5" class="bar"></label> -->
+                </div>
+            </div>
+            </div>
+        <div id="div3" class="content-div">
+            <!-- Conteúdo da Div 3 -->
+            <div>
+                <h1>Marca</h1>
+                <div></div>
+                <img id="brand-image" src="brand-explanation.svg" alt="">
+            </div>
+            <div id="colors navigation">
+                <!-- <img src="Grupo.svg" alt="Paleta de cores" id="paleta-cores"> -->
+                <!-- Tentativa de fazer a paleta de cores -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
